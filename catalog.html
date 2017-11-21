@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Каталог товаров</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">    
     </head>
     <body>
         <header class="main-header">
@@ -23,12 +26,12 @@
             </nav>
         </header>
 
-        <main>
-            <h1 class="catalog-title">Cредства для ухода</h1>
-            <ul class="navigator">
+        <main class="inner-page">
+            <h1 class="page-title">Cредства для ухода</h1>
+            <ul class="breadcrumbs">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="catalog.html">Магазин</a></li>
-                <li class="navigator-current">Средства для ухода</li>
+                <li class="breadcrumbs-current">Средства для ухода</li>
             </ul>
             
             <section class="filters">
@@ -55,7 +58,7 @@
               				  	<label for="filter-malin-goetz">Malin+Goetz</label>
               				</li>
               				<li class="filter-option">
-              				  	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays">
+              				  	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays" disabled>
               				  	<label for="filter-murrays">Murray’s</label>
               				</li>
               				<li class="filter-option">
